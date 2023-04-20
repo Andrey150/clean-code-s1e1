@@ -45,16 +45,16 @@ body {
 }
 
 .tasks__list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .task__item, .tasks__list__title {
-  list-style:none;
+  list-style: none;
 }
 
 input,button{
-  outline:none;
+  outline: none;
 }
 
 button {
@@ -156,14 +156,14 @@ button:hover {
 
 /* Edit Task */
 .tasks__list .task__item .task__edit-input {
-  display:none
+  display: none
 }
 
 .tasks__list .task__item.edit-mode .task__edit-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .tasks__list .task__item.edit-mode .task__name {
-  display:none;
+  display: none;
 }
