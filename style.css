@@ -49,7 +49,8 @@ body {
   padding: 0px;
 }
 
-.task__item, .tasks__list__title {
+.task__item,
+.tasks__list__title {
   list-style: none;
 }
 
@@ -149,7 +150,8 @@ button:hover {
 }
 
 /* Completed */
-.tasks__list#completed-tasks .task__name {
+.tasks__list#completed-tasks
+.task__name {
   text-decoration: line-through;
   color: #888;
 }
