@@ -150,7 +150,7 @@ button:hover {
 
 /* Completed */
 .tasks__list#completed-tasks .task__name {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
