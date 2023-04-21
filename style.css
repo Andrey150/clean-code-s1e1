@@ -20,14 +20,6 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-
-  .info {
-    text-align: center;
-  }
-
-}
-
 .main-page__element_centered {
   display: block;
   width: 500px;
@@ -46,7 +38,7 @@ body {
 
 .tasks__list {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 .task__item,
@@ -60,7 +52,7 @@ input,button{
 
 button {
   background: none;
-  border: 0px;
+  border:0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -124,7 +116,7 @@ button:hover {
   vertical-align: middle;
 }
 
-.task__item > input[type="checkbox"] {
+.task__item > .task__checkbox {
   margin: 0 10px;
 }
 
@@ -168,4 +160,12 @@ button:hover {
 
 .tasks__list .task__item.edit-mode .task__name {
   display: none;
+}
+
+@media (max-width:768px) {
+
+  .info {
+    text-align: center;
+  }
+
 }
